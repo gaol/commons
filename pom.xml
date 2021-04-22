@@ -16,10 +16,29 @@
 
   <name>Commons Project</name>
   <description>Common Utilities can be reused</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
-  <properties>
-    <fatjar.main.class>io.github.gaol.commons.Main</fatjar.main.class>
-  </properties>
+  <scm>
+    <connection>scm:git:git@github.com:gaol/commons.git</connection>
+    <developerConnection>scm:git:git@github.com:gaol/commons.git</developerConnection>
+    <url>https://github.com/gaol/commons</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>Author</id>
+      <name>Lin Gao</name>
+      <organization>OpenSource Developer</organization>
+      <organizationUrl>https://github.com/gaol/</organizationUrl>
+      <url>https://github.com/gaol/</url>
+    </developer>
+  </developers>
 
   <dependencies>
     <dependency>
